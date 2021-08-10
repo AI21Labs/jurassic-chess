@@ -1,7 +1,7 @@
 
 # A talking chess AI
  
-## _Powered by Jurassic-1 language model by AI21Labs Studio_
+## _powered by Jurassic-1 language model by AI21Labs Studio_
 
 
 - [Running the game](#running-the-game)
@@ -17,16 +17,22 @@ You need to have `python > 3.7` and `pip` to install the dependencies and run th
 
 In order to run the server:
 
-1. Install the python dependencies using pip
-```shell
+1. Install the python dependencies using pip:
+```shell 
 pip install -r requirements.txt
 ```
-If you are running on Windows, you might need to edit requirement.txt and change the version of pyttsx3 to 2.71.
- 
-2. Edit config.ini and put your AI21 Studio API key in the reserved place.
+If you are running on Windows and the speech doesn't work, try to edit requirement.txt and change the version of pyttsx3 to 2.71.
+
+2. Give running permission to the chess engine:
+```shell
+chmod +x engines/stockfish
+```
 
 
-3. Start Flask's development server
+3. Edit config.ini and put your AI21 Studio API key in the reserved place.
+
+
+4. Start Flask's development server:
 ```shell
 python play.py
 ```
@@ -43,7 +49,7 @@ python play.py
 
 You can change a few of the game's configuration parameters by editing config.ini:
 
-1. AI21 studio API parameters
+1. AI21 studio API parameters.
 ```ini
 url = https://api.ai21.com/studio/v1/complete
 api_key = <<your api key>>
@@ -54,7 +60,7 @@ model = j1-jumbo
 - `api_key` You AI21 studio API key.
 - `model` The language model that generates the speech. Choose between j1-jumbo and j1-large. 
 
-2. Speech parameters
+2. Speech parameters.
 ```ini
 bad_move_threshold = 50
 good_move_threshold = 10
@@ -64,9 +70,10 @@ max_time_between_speech = 12
 - `good_move_threshold` The maximum centipawn difference between the human's move and the best move to trigger a good-move comment.
 - `max_time_between_speech` Maximum seconds without any comment from the AI.
 
-3. Speech tones 
 
-    You can edit or add your own prompts to get a speaking opponent of your taste.
+3. Speech tones.
+
+   You can edit or add your own prompts to get a speaking opponent of your taste.
 
 
 4. Chess engine.
