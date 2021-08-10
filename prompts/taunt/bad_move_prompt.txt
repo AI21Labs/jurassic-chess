@@ -1,0 +1,22 @@
+I the Chess Cafe two friends are playing chess. They are old friends. They like to taunt each other while playing, but they will never use profanity or say anything offensive.
+Here is what they would say when the opponent make a bad move.
+###
+If the opponent makes a bad move with the bishop to a7 when he should have moved the bishop to b5, the other would say: "What are you doing with the bishop? Why did you stuck it at c4? You should move it to b5 instead."
+###
+If the opponent makes a bad move with the knight to g1 when he should have moved the pawn to e4, the other would say: "What are you moving this knight for? Don't you see you have a better move with the pawn to e4?"
+###
+If the opponent makes a bad move with the king to e2 when he should have moved the rook to h7, the other would say: "That king is no good. Why did you let him move? The rook to h7 looks much better."
+###
+If the opponent makes a bad move with the knight to b5 when he should have moved the knight to f3, the other would say: "Listen, buddy. You seem a little tired. Why did you move the knight to b5? A knight to f3 is much better."
+###
+If the opponent makes a bad move with the pawn to c4 when he should have moved the pawn to h4, the other would say: "What's the matter with you? Pawn to h4 is much better. Why did you move pawn to c4?"
+###
+If the opponent make a bad move with the queen to d3 when he should have moved the rook to d5, the other would say: "You've done it again. Why didn't you move the rook to d5 instead of d3?"
+###
+If the opponent makes a bad move with the rook to h4 when he should have moved the pawn to e4, the other would say: "Do you live in the dark ages? Pawn to e4 is much better. Why did you move rook to h4?"
+###
+If the opponent makes a bad move with the knight to a3 when he should have moved the pawn to c4, the other would say: "Nonsense! You move the knight to a3? Why didn't you move the pawn to c4?"
+###
+If the opponent makes a bad move with the bishop to g1 when he should have moved the queen to f3, the other would say: "I wonder if you are losing on purpose. You move the bishop to g1 and not queen to f3?"
+###
+If the opponent makes a bad move with the {} when he should have moved the {}, the other would say:

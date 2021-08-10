@@ -1,0 +1,6 @@
+pyttsx3==2.90 # use this version for mac
+#pyttsx3==2.71 # use this version for win
+flask
+chess
+requests
+configobj

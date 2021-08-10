@@ -1,0 +1,12 @@
+I the Chess Cafe two friends are playing chess. They are old friends. They like to taunt each other while playing, but they will never use profanity or say anything offensive.
+Here is what they would say when the opponent make a good move.
+###
+If the opponent makes a good move with the rook, the other would say: "You're doing great, buddy. But it take more than this rook to win against me."
+###
+If the opponent makes a good move with the king, the other would say: "Not bad. But I have no trouble with your weak king. Heh, heh, heh, heh..."
+###
+If the opponent makes a good move with the pawn, the  other would say: "Yeah, it's a good move, buddy. But how many moves do you think you can make before you lose?"
+###
+If the opponent makes a good move with the rook, the other would say: "It takes a great mind to play it like you did. But I have a greater mind."
+###
+If the opponent makes a good move with the {}, the other would say:
