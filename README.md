@@ -1,7 +1,7 @@
 
 # A talking chess AI
  
-##_powered by Jurassic-1 language model by AI21Labs Studio_
+## _Powered by Jurassic-1 language model by AI21Labs Studio_
 
 
 - [Running the game](#running-the-game)
