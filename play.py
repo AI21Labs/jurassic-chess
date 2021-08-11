@@ -221,10 +221,9 @@ def j1_generate_and_speak(prompt):
             generate = requests.post(config['ai21']['url'],
                                      headers={"Authorization": "Bearer " + config['ai21']['api_key']},
                                      json={
-                                         "model": config['ai21']['model'],
                                          "prompt": prompt,
                                          "numResults": 1,
-                                         "maxTokens": 64,
+                                         "maxTokens": 70,
                                          "stopSequences": ["\n"],
                                          "topKReturn": 0,
                                          "temperature": 0.8

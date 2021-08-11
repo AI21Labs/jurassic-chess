@@ -27,11 +27,7 @@ If you are running on Windows and the speech doesn't work, try to edit requireme
 ```shell
 chmod +x engines/stockfish
 ```
-
-
 3. Edit config.ini and put your AI21 Studio API key in the reserved place.
-
-
 4. Start Flask's development server:
 ```shell
 python play.py
@@ -51,14 +47,12 @@ You can change a few of the game's configuration parameters by editing config.in
 
 1. AI21 studio API parameters.
 ```ini
-url = https://api.ai21.com/studio/v1/complete
 api_key = <<your api key>>
-model = j1-jumbo
-#model = j1-large
+url = https://api.ai21.com/studio/v1/j1-jumbo/complete 
+#url = https://api.ai21.com/studio/v1/j1-large/complete
 ```
-- `url` The API url address. Normally you shouldn't change it.
 - `api_key` You AI21 studio API key.
-- `model` The language model that generates the speech. Choose between j1-jumbo and j1-large. 
+- `url` The API url address. By default we use the url to J1-Jumbo model. Replace the mask to use J1-Large instead.
 
 2. Speech parameters.
 ```ini
@@ -70,11 +64,9 @@ max_time_between_speech = 12
 - `good_move_threshold` The maximum centipawn difference between the human's move and the best move to trigger a good-move comment.
 - `max_time_between_speech` Maximum seconds without any comment from the AI.
 
-
 3. Speech tones.
 
    You can edit or add your own prompts to get a speaking opponent of your taste.
-
 
 4. Chess engine.
 
